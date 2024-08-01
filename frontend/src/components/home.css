@@ -1,0 +1,9 @@
+.mainContainer {
+  display: flex;
+  margin-left: 300px;
+}
+.Centre {
+  flex: 1; /* takes remaining space in mainContainer */
+}
+
+

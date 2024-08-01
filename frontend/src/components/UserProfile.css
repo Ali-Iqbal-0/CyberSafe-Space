@@ -1,0 +1,183 @@
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background: #f0f2f5;
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 800px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.profile-dp {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 20px;
+  border: 2px solid #fff;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-name {
+  font-size: 1.8em;
+  margin: 0;
+}
+
+.profile-handle {
+  color: #888;
+  margin: 5px 0;
+}
+
+.profile-stats {
+  display: flex;
+  margin: 10px 0;
+}
+
+.stat {
+  margin-right: 20px;
+  text-align: center;
+}
+
+.stat strong {
+  display: block;
+  font-size: 1.2em;
+}
+
+.message-button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.profile-tabs {
+  display: flex;
+  margin: 20px 0;
+}
+
+.tab {
+  background: #f0f2f5;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.tab:hover {
+  background: #e0e2e5;
+}
+
+.profile-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+}
+
+.friends-section {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.friends-section h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.friends-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.friend-card {
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 200px;
+}
+
+.friend-profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.friend-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.friend-name {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.content-section {
+  width: 100%;
+}
+
+.content-section h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.content-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.content-card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 600px;
+}
+
+.content-details {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.content-date{
+  font-size: small;
+}
+.content {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.content-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.loading-text {
+  font-size: 1.5em;
+}

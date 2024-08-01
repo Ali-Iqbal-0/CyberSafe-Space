@@ -1,0 +1,47 @@
+/* adminpost.css */
+
+.center-column {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .admin-post-list-error {
+    color: red;
+    font-size: 18px;
+    margin: 20px;
+  }
+  
+  .admin-post-list-items {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .post {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    width: 500px;
+  }
+  
+  .post .userName {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .post .userContent {
+    margin-bottom: 10px;
+  }
+  
+  .post-image {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .post-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  

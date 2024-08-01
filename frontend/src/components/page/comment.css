@@ -1,0 +1,120 @@
+
+  
+  .comment-section h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .comment-section textarea {
+    width: 450px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    resize: vertical;
+    margin-bottom: 10px;
+  }
+  
+  .comment-section button {
+    padding: 8px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .comment-section button:hover {
+    background-color: rgb(194, 189, 189);
+  }
+  
+  .comment {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size:medium;
+  }
+  
+  .comment-user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .comment-profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .comment-user-details {
+    flex: 1;
+    font-size:medium
+  }
+  
+  .loading-text {
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+    color: #777;
+  }
+  .content_comment{
+    font-size:small;
+  }
+  .post-header {
+    position: relative; /* Ensure the dropdown is positioned relative to this container */
+  }
+  
+  .dropdown {
+    position: absolute;
+    top: 0;
+    right: 0; /* Position the dropdown to the right */
+  }
+  
+  .dropbtn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .dropbtn:hover {
+    background-color: #f1f1f1; /* Change background color on hover */
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%; /* Position the dropdown below the button */
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    opacity: 0; /* Initially hide the dropdown */
+    transition: opacity 0.3s ease; /* Smooth transition for opacity */
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block; /* Show the dropdown when hovering over .dropdown */
+    opacity: 1; /* Fade in the dropdown */
+    
+  }
+  
+  .dropdown-content button {
+    display: block;
+    width: 100%;
+    padding: 8px 12px;
+    text-align: left;
+    border: none;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  

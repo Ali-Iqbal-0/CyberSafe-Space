@@ -1,0 +1,266 @@
+.center-column {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f0f2f5;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.post:last-child {
+  margin-bottom: 0;
+}
+
+.userName {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-bottom: 5px; /* Add some space below the user name */
+}
+
+.userContent {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.post-date {
+  font-size: 14px;
+  color: #888;
+}
+
+.post img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.post-actions {
+  display: flex;
+  justify-content: flex-end; /* Align actions to the right */
+  align-items: center;
+  margin-top: 15px;
+}
+
+.post-actions button {
+  padding: 8px 15px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.post-actions button:hover {
+  background-color: #0056b3;
+}
+
+.title_name p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.image-upload-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.image-upload-button:hover {
+  background-color: #eee;
+}
+
+.image-upload-button svg {
+  font-size: 20px;
+  margin-right: 8px;
+  color: #666;
+}
+
+.image-upload-button span {
+  font-size: 14px;
+}
+
+.loading-text {
+  text-align: center;
+  margin-top: 20px;
+  font-style: italic;
+  color: #777;
+}
+
+.post-text-area {
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.post-text-area textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  resize: vertical;
+}
+
+.post-header {
+  position: relative; /* Ensure the dropdown is positioned relative to this container */
+}
+
+.dropdown {
+  position: absolute;
+  top: 0;
+  right: 0; /* Position the dropdown to the right */
+}
+
+.dropbtn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.dropbtn:hover {
+  background-color: #f1f1f1; /* Change background color on hover */
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%; /* Position the dropdown below the button */
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  z-index: 1;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  opacity: 0; /* Initially hide the dropdown */
+  transition: opacity 0.3s ease; /* Smooth transition for opacity */
+}
+
+.dropdown:hover .dropdown-content {
+  display: block; /* Show the dropdown when hovering over .dropdown */
+  opacity: 1; /* Fade in the dropdown */
+}
+
+.dropdown-content button {
+  display: block;
+  width: 100%;
+  padding: 8px 12px;
+  text-align: left;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.dropdown-content button:hover {
+  background-color: #f1f1f1; /* Change background color on hover */
+}
+
+.post-user-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.post-profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.default-profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin-right: 10px;
+}
+
+.userName {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.post-date {
+  font-size: 14px;
+  color: #888;
+}
+.toggle {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.toggle input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #007bff;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.toggle-text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 80px;
+  color: #666;
+}
+
+.round {
+  border-radius: 34px;
+}

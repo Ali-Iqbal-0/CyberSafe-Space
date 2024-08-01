@@ -1,0 +1,58 @@
+.RightBar {
+    width: 300px;
+    background-color: #C0C0C0;
+    border: 0.1px solid #ddd;
+    border-radius: 10px;
+  }
+  .RightBar h1{
+    font-size: 28px;
+    text-align: center;
+    font-family: monospace;
+  }
+  .userCard {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .userCard:last-child {
+    border-bottom: none;
+  }
+  
+  .userCard img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .user-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .user-details span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .user-details button {
+    background-color: #4267b2;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .user-details button:hover {
+    background-color: #3e61b5;
+  }
+  
+  .user-details button:active {
+    background-color: #2f4f7f;
+  }
