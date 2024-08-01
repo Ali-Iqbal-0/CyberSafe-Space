@@ -14,3 +14,25 @@ Backend: Node.js, Express.js
 Database: MongoDB
 Real-Time Communication: Socket.IO
 Styling: CSS, Tailwind CSS
+
+Setup and Installation:
+git clone https://github.com/Ali-Iqbal-0/CyberSafe-Space.git
+cd cybersafe-space
+
+for backend:
+cd backend
+npm install
+
+for frontend:
+cd ../frontend
+npm install
+
+Start Backend:
+cd ../backend
+npm start
+
+Start Frontend:
+cd ../frontend
+npm start
+
+
