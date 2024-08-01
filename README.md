@@ -29,7 +29,7 @@ npm install
 
 Start Backend:
 cd ../backend
-npm start
+npm run dev
 
 Start Frontend:
 cd ../frontend
